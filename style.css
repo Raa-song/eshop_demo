@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Honey Script";
+    src: url("fonts/HONEYSCRIPT-LIGHT.TTF");
+}
+
+* {
+    font-family: "Quicksand";
+}
+
+.logo {
+    height: 100px;
+    background-image: url("resources/logo.svg");
+    /* background-color: aquamarine; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /*keeps the image within the div*/
+}
+
+.title1 {
+    font-family: "Honey Script";
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.title2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.background {
+    background-image: url("resources/background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main-background {
+    background-image: url("resources/background-body.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* //////Home Page Start/////////// */
+
+.label1 {
+    font-size: 16px;
+}
+
+.label2 {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.myshop {
+    margin-top: -8px;
+}
+
+.carticon {
+    height: 29px;
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.hrbreak1 {
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 95%; */
+    border-style: solid;
+    border-color: silver;
+    border-width: 3px;
+}
+
+.logoimg {
+    height: 80px;
+    background-image: url("resources/logo2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.searchbtn {
+    height: 50%;
+}
+
+@media (min-width: 921px) {
+    button.searchbtn {
+        display: inline-block;
+    }
+    button.searchicon {
+        display: none;
+    }
+}
+
+@media (max-width: 920px) {
+    button.searchbtn {
+        display: none;
+    }
+    button.searchicon {
+        display: inline-block;
+        height: 38px;
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+        /* margin-left: 55px; */
+    }
+    a.smlscrcn {
+        margin-right: 22px;
+        /* margin-top: 55px; */
+    }
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* slider */
+
+.posterimg1 {
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.postercaption {
+    margin-bottom: 220px;
+}
+
+.postertitle {
+    font-size: 55px;
+    color: grey;
+}
+
+.postertxt {
+    font-size: 30px;
+    color: black;
+}
+
+.postercaption1 {
+    margin-bottom: 70px;
+    margin-right: 250px;
+}
+
+
+/* slider */
+
+
+/* product title view */
+
+.link2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+
+/* product title view E*/
+
+
+/* product view s*/
+
+.cardTopImg {
+    height: 22vh;
+}
+
+
+/* product view e*/
+
+
+/* //////Home page End///// */
+
+
